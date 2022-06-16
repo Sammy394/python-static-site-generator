@@ -3,7 +3,7 @@ import sys
 
 from docutils.core import publish_parts
 from markdown import markdown
-from Content import ssg.content
+from ssg.content import Content
 from typing import List
 from pathlib import Path
 
